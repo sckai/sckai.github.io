@@ -1,0 +1,112 @@
+/* for width 1024 */
+@media screen and (max-width: 1024px){
+    /* nav block */
+    #navbar_button{
+        margin-left: 100px;
+    }
+    /* nav block */
+    #navbar_button{
+        left: 86px;    
+    }
+    #navbar_button a{
+        padding: 20px;
+    }
+    /* about block */
+    #font_block>#font_one{
+        top: 3vh;
+    }
+     #font_block>#font_two{
+        top: 4vh;
+    }
+     #font_block>#font_three{
+        top: 8vh;
+    }
+     #font_block>#font_four{
+        top: 11vh;  
+    }
+    #font_block>#font_five{
+        top: 14vh;
+    }  
+    #font_block>#font_six{
+        top: 14vh;
+    }
+    #about_right_img{
+        margin-top: 40px;
+        width: 17vw;
+        height: 30vh;
+    }
+    /* menu block */
+    #menu_big_font{
+        margin-left: 55px;
+        margin-top: 160px;
+    }
+    #please_flie_font{
+        margin-left: 130px;
+        margin-top: 240px;
+    } 
+      /*new block  */
+      #new_left_font{
+        margin-top: 40px;
+    }
+    #new_right_font{
+        margin-top: 40px;
+    }
+    .message{
+        width: 84%;
+        height: 32px;
+        background-color: white;
+        margin: 32px 26px 20px  46px;
+    }
+    .message p{
+        margin-left: 0px;
+    }
+    /* restaurant photo block */
+    #restaurant{
+        height: 40vh;
+        width: 100%;
+        position: relative;;
+    }
+    .restaurant_photo{
+        width: 166px;
+        height: 166px;
+        border-radius: 50%;
+        margin-left: 16px;
+        transform: translate(-225%, -50%);
+    }
+    /* footer block */
+    .left_footer_icon_item{
+        left: 20px;
+    }
+    #google_map{
+        height: 68%;
+    }
+    .left_icon_message{
+        left: 0px;
+        padding-top: 0px;
+        padding-left: 30px;
+    }
+    #copyright{
+        position: relative;
+        width: 70%;
+        font-size: 18px;
+        color: #f4e1e4;
+        margin: 0 40% 0 54%;
+        top: 50%;
+        transform: translate(-38%, -50%);
+    }
+}
+@media screen and (max-width: 928px){
+    /* nav block */
+    #navbar_button{
+        margin-left: 90px;
+    }
+    #navbar_button a{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 850px){
+    /* nav block */
+    #navbar_button{
+        margin-left: 36px;
+    }
+}
