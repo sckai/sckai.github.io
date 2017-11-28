@@ -1195,7 +1195,7 @@ h1 {
     }
 
     /* Abuto_us block */
-    #font_block>#font_one{
+    /* #font_block>#font_one{
         font-size: 20px;
         top: 4%;
     }
@@ -1217,7 +1217,7 @@ h1 {
     }  
     #font_block>#font_six{
         top: 14%;
-    }
+    } */
 
     /* chef block */
     #chef{
