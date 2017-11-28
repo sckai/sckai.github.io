@@ -259,43 +259,43 @@ h1 {
     background: linear-gradient(to bottom right, #fff, #ccc);
 }
 #front_frist{
-    background-image: url('/onepage/img/menu-frist.png');
+    background-image: url('../img/menu-frist.png');
     background-size: 100% 100%; 
 }
 #front_two{
-    background-image: url('/onepage/img/menu-two.png');
+    background-image: url('../img/menu-two.png');
     background-size: 100% 100%; 
 }
 #front_three{
-    background-image: url('/onepage/img/menu-three.jpg');
+    background-image: url('../img/menu-three.jpg');
     background-size: 100% 100%; 
 }
 #front_four{
-    background-image: url('/onepage/img/menu-four.jpg');
+    background-image: url('../img/menu-four.jpg');
     background-size: 100% 100%; 
 }
 #front_five{
-    background-image: url('/onepage/img/menu-five.jpg');
+    background-image: url('../img/menu-five.jpg');
     background-size: 100% 100%; 
 }
 #front_six{
-    background-image: url('/onepage/img/menu-six.jpg');
+    background-image: url('../img/menu-six.jpg');
     background-size: 100% 100%; 
 }
 #front_seven{
-    background-image: url('/onepage/img/menu-seven.jpg');
+    background-image: url('../img/menu-seven.jpg');
     background-size: 100% 100%; 
 }
 #front_eight{
-    background-image: url('/onepage/img/menu-eight.jpg');
+    background-image: url('../img/menu-eight.jpg');
     background-size: 100% 100%; 
 }
 #front_nine{
-    background-image: url('/onepage/img/menu-nine.jpg');
+    background-image: url('../img/menu-nine.jpg');
     background-size: 100% 100%; 
 }
 #front_footer{
-    background-image: url('/onepage/img/menu_footer.jpg');
+    background-image: url('../img/menu_footer.jpg');
     background-size: 100% 100%; 
 }
 .back {
@@ -361,7 +361,7 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-60%);
-    background-image: url('/onepage/img/Gordon-James-Ramsay.png');
+    background-image: url('../img/Gordon-James-Ramsay.png');
     background-size: 100% 100%;
     border-radius: 50%;
 }
@@ -374,7 +374,7 @@ h1 {
 }
 #star_one{
     position: absolute;
-    background-image: url('/onepage/img/star.png');
+    background-image: url('../img/star.png');
     background-size: 100% 100%;
     width: 34px;
     height: 34px;
@@ -383,7 +383,7 @@ h1 {
 }
 #star_two{
     position: absolute;
-    background-image: url('/onepage/img/star.png');
+    background-image: url('../img/star.png');
     background-size: 100% 100%;
     width: 34px;
     height: 34px;
@@ -392,7 +392,7 @@ h1 {
 }
 #star_three{
     position: absolute;
-    background-image: url('/onepage/img/star.png');
+    background-image: url('../img/star.png');
     background-size: 100% 100%;
     width: 34px;
     height: 34px;
@@ -428,7 +428,7 @@ h1 {
     position: relative;
     width: 100%;
     height: 60vh;
-    background-image: url('/onepage/img/block-background.png'); 
+    background-image: url('../img/block-background.png'); 
 }
 #new_block{
     position: relative;
@@ -474,7 +474,7 @@ h1 {
     height: 60%;
     width: 72%;
     background-color: #973542;
-    background-image: url('/onepage/img/news-photo.png');
+    background-image: url('../img/news-photo.png');
     background-size: 100% 100%;
 }
 #new_left_photo:hover{
@@ -630,7 +630,7 @@ h1 {
 
 /* front pane, placed above back */
 .exterior_front {
-     background-image: url('/onepage/img/exterior.jpg');
+     background-image: url('../img/exterior.jpg');
     background-size: 100% 100%;
     margin-right: 5%;
     z-index: 2;
@@ -682,7 +682,7 @@ h1 {
 
 /* front pane, placed above back */
 .wc_front {
-    background-image: url('/onepage/img/wc.jpg');
+    background-image: url('../img/wc.jpg');
     background-size: 100% 100%;
     margin-right: 5%;
     z-index: 2;
@@ -733,7 +733,7 @@ h1 {
 
 /* front pane, placed above back */
 .kitchen_front {
-    background-image: url('/onepage/img/kitchen.jpg');
+    background-image: url('../img/kitchen.jpg');
     background-size: 100% 100%;
     margin-right: 5%;
     z-index: 2;
@@ -782,7 +782,7 @@ h1 {
 
 /* front pane, placed above back */
 .restaurant_front {
-    background-image: url('/onepage/img/restaurant.jpg');
+    background-image: url('../img/restaurant.jpg');
     background-size: 100% 100%;
     margin-right: 5%;
     z-index: 2;
@@ -843,21 +843,21 @@ h1 {
     height: 44px;
     width: 44px;
     top: 27%;
-    background-image: url('/onepage/img/phone-receiver-icon.png');
+    background-image: url('../img/phone-receiver-icon.png');
     background-size: 100% 100%;
 }
 #icon_phone{
     height: 44px;
     width: 44px;
     top: 50%;
-    background-image: url('/onepage/img/phone-icon.png');
+    background-image: url('../img/phone-icon.png');
     background-size: 100% 100%;
 }
 #icon_mail{
     height: 44px;
     width: 44px;
     top: 73%;
-    background-image: url('/onepage/img/mail-icon.png');
+    background-image: url('../img/mail-icon.png');
     background-size: 100% 100%;
 }
 .left_icon_message{
@@ -895,7 +895,7 @@ h1 {
     left: 10%;
     height: 44px;
     width: 44px;
-    background-image: url('/onepage/img/map-icon.png');
+    background-image: url('../img/map-icon.png');
     background-size: 100% 100%;
     float: left;
 }
@@ -1079,7 +1079,7 @@ h1 {
         left: 10%;
         height: 28px;
         width: 28px;
-        background-image: url('/onepage/img/map-icon.png');
+        background-image: url('../img/map-icon.png');
         background-size: 100% 100%;
         float: left;
     }
@@ -1242,7 +1242,7 @@ h1 {
         position: relative;
         width: 100%;
         height: 300px;
-        background-image: url('/onepage/img/block-background.png'); 
+        background-image: url('../img/block-background.png'); 
     }
     #new_block{
         position: relative;
@@ -1345,7 +1345,7 @@ h1 {
         height: 44px;
         width: 44px;
         top: 48%;
-        background-image: url('/onepage/img/map-icon.png');
+        background-image: url('../img/map-icon.png');
         background-size: 100% 100%;
     }
     .left_icon_message{
