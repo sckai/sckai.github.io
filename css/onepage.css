@@ -5,6 +5,7 @@ body{
 /* frist block */
 /* back_Carousel_blurry block and navbr */
 #back_blurry{
+    position: relative;
     width: 100%;
     height: 100vh;
 }
@@ -118,7 +119,7 @@ body{
     float: left;
     transition: all 1s ease-out;
     opacity: 0;
-    transform: translate(0,100%);
+    transform: translate(170%,0%);
 }
 #font_block>p{
     margin: 0 auto;  
@@ -179,7 +180,7 @@ body{
     top: 15%;
     left: 20%;
     transition: all 1s ease-out;
-    transform: translate(170%,0%);
+    transform: translate(0%,150%);
 }
 #about_right_img:hover{
     -webkit-filter:brightness(1.1);
@@ -197,8 +198,8 @@ body{
 } 
 #menu_big_font{
     position: absolute;
-    height: 700px;
-    width: 700px;
+    height: 200px;
+    width: 200px;
     font-size: 40px;
     color: #B87D40; 
     top: 40%;
@@ -259,43 +260,43 @@ h1 {
     background: linear-gradient(to bottom right, #fff, #ccc);
 }
 #front_frist{
-    background-image: url('../img/menu-frist.png');
+    background-image: url('/img/menu-frist.png');
     background-size: 100% 100%; 
 }
 #front_two{
-    background-image: url('../img/menu-two.png');
+    background-image: url('/img/menu-two.png');
     background-size: 100% 100%; 
 }
 #front_three{
-    background-image: url('../img/menu-three.jpg');
+    background-image: url('/img/menu-three.jpg');
     background-size: 100% 100%; 
 }
 #front_four{
-    background-image: url('../img/menu-four.jpg');
+    background-image: url('/img/menu-four.jpg');
     background-size: 100% 100%; 
 }
 #front_five{
-    background-image: url('../img/menu-five.jpg');
+    background-image: url('/img/menu-five.jpg');
     background-size: 100% 100%; 
 }
 #front_six{
-    background-image: url('../img/menu-six.jpg');
+    background-image: url('/img/menu-six.jpg');
     background-size: 100% 100%; 
 }
 #front_seven{
-    background-image: url('../img/menu-seven.jpg');
+    background-image: url('/img/menu-seven.jpg');
     background-size: 100% 100%; 
 }
 #front_eight{
-    background-image: url('../img/menu-eight.jpg');
+    background-image: url('/img/menu-eight.jpg');
     background-size: 100% 100%; 
 }
 #front_nine{
-    background-image: url('../img/menu-nine.jpg');
+    background-image: url('/img/menu-nine.jpg');
     background-size: 100% 100%; 
 }
 #front_footer{
-    background-image: url('../img/menu_footer.jpg');
+    background-image: url('/img/menu_footer.jpg');
     background-size: 100% 100%; 
 }
 .back {
@@ -361,7 +362,7 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-60%);
-    background-image: url('../img/Gordon-James-Ramsay.png');
+    background-image: url('/img/Gordon-James-Ramsay.png');
     background-size: 100% 100%;
     border-radius: 50%;
 }
@@ -374,7 +375,7 @@ h1 {
 }
 #star_one{
     position: absolute;
-    background-image: url('../img/star.png');
+    background-image: url('/img/star.png');
     background-size: 100% 100%;
     width: 34px;
     height: 34px;
@@ -383,7 +384,7 @@ h1 {
 }
 #star_two{
     position: absolute;
-    background-image: url('../img/star.png');
+    background-image: url('/img/star.png');
     background-size: 100% 100%;
     width: 34px;
     height: 34px;
@@ -392,7 +393,7 @@ h1 {
 }
 #star_three{
     position: absolute;
-    background-image: url('../img/star.png');
+    background-image: url('/img/star.png');
     background-size: 100% 100%;
     width: 34px;
     height: 34px;
@@ -428,7 +429,7 @@ h1 {
     position: relative;
     width: 100%;
     height: 60vh;
-    background-image: url('../img/block-background.png'); 
+    background-image: url('/img/block-background.png'); 
 }
 #new_block{
     position: relative;
@@ -474,7 +475,7 @@ h1 {
     height: 60%;
     width: 72%;
     background-color: #973542;
-    background-image: url('../img/news-photo.png');
+    background-image: url('/img/news-photo.png');
     background-size: 100% 100%;
 }
 #new_left_photo:hover{
@@ -630,7 +631,7 @@ h1 {
 
 /* front pane, placed above back */
 .exterior_front {
-     background-image: url('../img/exterior.jpg');
+     background-image: url('/img/exterior.jpg');
     background-size: 100% 100%;
     margin-right: 5%;
     z-index: 2;
@@ -682,7 +683,7 @@ h1 {
 
 /* front pane, placed above back */
 .wc_front {
-    background-image: url('../img/wc.jpg');
+    background-image: url('/img/wc.jpg');
     background-size: 100% 100%;
     margin-right: 5%;
     z-index: 2;
@@ -733,7 +734,7 @@ h1 {
 
 /* front pane, placed above back */
 .kitchen_front {
-    background-image: url('../img/kitchen.jpg');
+    background-image: url('/img/kitchen.jpg');
     background-size: 100% 100%;
     margin-right: 5%;
     z-index: 2;
@@ -782,7 +783,7 @@ h1 {
 
 /* front pane, placed above back */
 .restaurant_front {
-    background-image: url('../img/restaurant.jpg');
+    background-image: url('/img/restaurant.jpg');
     background-size: 100% 100%;
     margin-right: 5%;
     z-index: 2;
@@ -843,21 +844,21 @@ h1 {
     height: 44px;
     width: 44px;
     top: 27%;
-    background-image: url('../img/phone-receiver-icon.png');
+    background-image: url('/img/phone-receiver-icon.png');
     background-size: 100% 100%;
 }
 #icon_phone{
     height: 44px;
     width: 44px;
     top: 50%;
-    background-image: url('../img/phone-icon.png');
+    background-image: url('/img/phone-icon.png');
     background-size: 100% 100%;
 }
 #icon_mail{
     height: 44px;
     width: 44px;
     top: 73%;
-    background-image: url('../img/mail-icon.png');
+    background-image: url('/img/mail-icon.png');
     background-size: 100% 100%;
 }
 .left_icon_message{
@@ -895,7 +896,7 @@ h1 {
     left: 10%;
     height: 44px;
     width: 44px;
-    background-image: url('../img/map-icon.png');
+    background-image: url('/img/map-icon.png');
     background-size: 100% 100%;
     float: left;
 }
@@ -1001,6 +1002,7 @@ h1 {
     }
     /* new block */
     #new_left_font{
+        position: absolute;
         font-size: 22px;
     }
     #new_left_photo{
@@ -1079,7 +1081,7 @@ h1 {
         left: 10%;
         height: 28px;
         width: 28px;
-        background-image: url('../img/map-icon.png');
+        background-image: url('/img/map-icon.png');
         background-size: 100% 100%;
         float: left;
     }
@@ -1158,7 +1160,7 @@ h1 {
     #down.display{
         height: calc(100vh - 86px);
         opacity: 0.6;
-        visibility:  visible;
+        visibility: visible;
     }
     .list_content{
         position: relative;
@@ -1242,7 +1244,7 @@ h1 {
         position: relative;
         width: 100%;
         height: 300px;
-        background-image: url('../img/block-background.png'); 
+        background-image: url('/img/block-background.png'); 
     }
     #new_block{
         position: relative;
@@ -1266,18 +1268,20 @@ h1 {
         left: 20%; 
     }
     #font_bottom_line{
-        top: 4%;
+        top: 20%;
         width: 60%;
     }
     #new_left_photo{
         height: 56%;
         width: 40%;
+        top: 26%;
     }
     #photo_line{
         width: 60%;
+        top: 32%;
     }
 
-    /* restaurant photo block */
+    /* restaurant photo block  */
     #restaurant{
         height: 1100px;
         width: 100%;
@@ -1307,7 +1311,7 @@ h1 {
         width: 240px;
         height: 240px;
         border-radius: 50%;
-    }
+    } 
     /* footer block */
     #footer{
         height: 800px;
@@ -1318,6 +1322,7 @@ h1 {
         float: left;
     }
     #footer_left_font{
+        position: absolute;
         font-size: 28px;
         left: 14%;
         top: 4%;
@@ -1345,7 +1350,7 @@ h1 {
         height: 44px;
         width: 44px;
         top: 48%;
-        background-image: url('../img/map-icon.png');
+        background-image: url('/img/map-icon.png');
         background-size: 100% 100%;
     }
     .left_icon_message{
@@ -1382,13 +1387,6 @@ h1 {
     #right_message{
         display: none;
     }
-    /* #footer_left #google_map{
-        position: absolute;
-        top: 56%;
-        width: 72%;
-        height: 40%;
-        left: 14%; 
-    } */
     #google_map{
         position: relative;
         top: 18%;
