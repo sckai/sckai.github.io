@@ -1197,26 +1197,26 @@ h1 {
     /* Abuto_us block */
     #font_block>#font_one{
         font-size: 22px;
-        top: 6%;
+        top: 4%;
     }
     #font_block>#font_two{
         font-size: 12px;
-        top: 9%;
+        top: 7%;
     }
     #font_block>#font_three{
         font-size: 10px;
-        top: 19%;
+        top: 17%;
     }
     #font_block>#font_four{
         font-size: 8px;
-        top: 23%;
+        top: 21%;
     }
     #font_block>#font_five{
         font-size: 7px;
-        top: 33%;
+        top: 30%;
     }  
     #font_block>#font_six{
-        top: 33%;
+        top: 30%;
         width: 10%;
     }
 
