@@ -127,35 +127,35 @@ body{
 #font_block>#font_one{
     position: relative;
     text-align: center;
-    font-size: 44px;
+    font-size: 22px;
     color: #B87D40;
     top: 14%;
 }
  #font_block>#font_two{
     position: relative;
     text-align: center;
-    font-size: 25px;
+    font-size: 12px;
     color: #4D4C4D;
     top: 17%;
 }
  #font_block>#font_three{
     position: relative;
     text-align: center;
-    font-size: 21px;
+    font-size: 10px;
     color: #4D4C4D;
     top: 27%;
 }
  #font_block>#font_four{
     position: relative;
     text-align: center;
-    font-size: 12px;
+    font-size: 8px;
     color: #4D4C4D;
     top: 31%;
 }
 #font_block>#font_five{
     position: relative;
     text-align: center;
-    font-size: 14px;
+    font-size: 7px;
     color: #4D4C4D;
     top: 42%;
 }  
