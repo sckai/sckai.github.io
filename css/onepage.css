@@ -119,7 +119,7 @@ body{
     float: left;
     transition: all 1s ease-out;
     opacity: 0;
-    transform: translate(170%,0%);
+    transform: translate(0,100%);
 }
 #font_block>p{
     margin: 0 auto;  
@@ -180,7 +180,7 @@ body{
     top: 15%;
     left: 20%;
     transition: all 1s ease-out;
-    transform: translate(0%,150%);
+    transform: translate(170%,0);
 }
 #about_right_img:hover{
     -webkit-filter:brightness(1.1);
