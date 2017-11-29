@@ -129,35 +129,35 @@ body{
     text-align: center;
     font-size: 44px;
     color: #B87D40;
-    top: 14%;
+    top: 13%;
 }
  #font_block>#font_two{
     position: relative;
     text-align: center;
     font-size: 25px;
     color: #4D4C4D;
-    top: 17%;
+    top: 16%;
 }
  #font_block>#font_three{
     position: relative;
     text-align: center;
     font-size: 21px;
     color: #4D4C4D;
-    top: 27%;
+    top: 26%;
 }
  #font_block>#font_four{
     position: relative;
     text-align: center;
     font-size: 12px;
     color: #4D4C4D;
-    top: 31%;
+    top: 30%;
 }
 #font_block>#font_five{
     position: relative;
     text-align: center;
     font-size: 14px;
     color: #4D4C4D;
-    top: 42%;
+    top: 41%;
 }  
 #font_block>#font_six{
     position: relative;
@@ -165,7 +165,7 @@ body{
     width: 52px;
     height: 1px;
     background-color: #B87D40;
-    top: 42%;
+    top: 41%;
 }
 #about_right{
     width: 30%;
