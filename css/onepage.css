@@ -357,8 +357,8 @@ h1 {
 }
 #character_photo{
     position: relative;;
-    width: 230px;
-    height: 230px;
+    width: 180px;
+    height: 180px;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-60%);
