@@ -182,8 +182,9 @@ body{
     height: 70%;
     top: 15%;
     left: 20%;
+    visibility: hidden;
     transition: all 1s ease-out;
-    transform: translate(0%,100%);
+    transform: translate(170%,0%);
 }
 #about_right_img:hover{
     -webkit-filter:brightness(1.1);
