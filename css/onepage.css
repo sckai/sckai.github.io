@@ -182,7 +182,7 @@ body{
     height: 70%;
     top: 15%;
     left: 20%;
-    visibility: hidden;
+    display: none;
     transition: all 1s ease-out;
     transform: translate(170%,0%);
 }
