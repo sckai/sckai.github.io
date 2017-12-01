@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
+    <title>onepage</title>
+    <link rel="stylesheet" href="/../css/onepage.css">
+    <script src="/js/jquery-2.1.3.min.js"></script>
+    <script src="/js/jquery.1.0.5-hammer.min.js"></script>
+    <script src=""></script>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div id="back_blurry">
+        <img class="blurry_slides" src="/img/banner_one_blurry.png" alt="">
+        <img class="blurry_slides" src="/img/banner_two_blurry.jpg" alt="">
+        
+        <div id="navbar">
+            <a id="logo" href="#back_blurry"><img src="/img/logo.png"  title="Advanced Beef" alt=""></a>
+            <a id="logo_small" href="#back_blurry"><img src="/img/logo-small.png"  title="Advanced Beef" alt=""></a>
+            <div id="navbar_button">
+                <a class="navbar_button_font" href="#about_us">關於我們</a>
+                <a class="navbar_button_font" href="#menu">菜單</a>
+                <a class="navbar_button_font" href="#chef">行政主廚</a>
+                <a class="navbar_button_font" href="#new_background">最新消息</a>
+                <a class="navbar_button_font" href="#restaurant">餐廳環境</a>
+                <a class="navbar_button_font" href="#footer">聯絡我們</a>
+            </div>
+            <a id="fb_icon" href="https://www.facebook.com/"><img src="/img/fackbook_icon.png" title="Facebook" alt=""></a>
+             <!--for phone  -->
+             <div id="nav_menu_down" onclick="toggle_class()">
+                <div class="list" id="list_one"></div>
+                <div class="list" id="list_two"></div>
+                <div class="list" id="list_three"></div>
+            </div>
+        </div>
+         <div id="down" >
+            <div class="list_content"><a href="#about_us">關於我們</a></div>
+            <div class="list_content"><a href="#menu">菜單</a></div>
+            <div class="list_content"><a href="#chef">行政主廚</a></div>
+            <div class="list_content"><a href="#new_background">最新消息</a></div>
+            <div class="list_content"><a href="#restaurant">餐廳環境</a></div>
+            <div class="list_content"><a href="#footer">連絡我們</a></div>
+            <div class="list_content"><a target="_blank" href="https://www.facebook.com/">Facebook</a></div>
+        </div> 
+        <!--for phone end -->
+        <div id="carousel">
+            <img class="slides"  src="/img/banner_one.png" alt="">
+            <img class="slides"  src="/img/banner_two.jpg" alt=""> 
+            <button class="btn" onclick="plusIndex(-1)" id="btn_one">&#10094;</button>
+            <button class="btn" onclick="plusIndex(1)" id="btn_two">&#10095;</button>
+            <ul id="bottom_nav_block">
+                <li class="bottom_nav" onclick="togglearr(0)"></li>
+                <li class="bottom_nav" onclick="togglearr(1)"></li>
+                <!-- <li class="bottom_nav"></li></li>
+                <li class="bottom_nav"></li></li> -->
+            </ul>
+        </div>
+    </div>
+
+    <!--  -->
+    <div id="about_us">
+        <div id="font_block">
+            <p id="font_one">Discover</p>
+            <p id="font_two">OUR STORY</p>
+            <p id="font_three">*</p>
+            <p id="font_four">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, vero temporibus? Ipsam, ad omnis. Accusamus laboriosam modi molestias ipsum pariatur</p>
+            <p id="font_five">About us</p>
+            <div id="font_six"></div>
+        </div>
+        <div id="about_right">
+            <img id="about_right_img" src="/img/about-photo.jpg" alt="">
+        </div>
+    </div>
+    <!--  -->
+    <div id="menu">
+        <div id="menu_big_font">M E N U</div>
+        <div id="please_flie_font">Please Flie Page</div>
+        <div class="scene">
+            <article class="book">
+                <section class="page active">
+                    <div class="front" id="front_frist" >
+                        <div class="qr"></div>
+                    </div>
+                    <div class="back" id="front_two"></div>     
+                </section>
+                <section class="page">
+                    <div class="front" id="front_three"></div>
+                    <div class="back" id="front_four" >  </div>    
+                </section>
+                <section class="page">
+                    <div class="front" id="front_five"></div>
+                    <div class="back" id="front_six"></div>    
+                </section>
+                <section class="page">
+                    <div class="front" id="front_seven"></div>
+                    <div class="back" id="front_eight"></div>    
+                </section>
+                <section class="page">
+                    <div class="front" id="front_nine"></div>
+                    <div class="back" id="front_footer"></div>    
+                </section>
+            </article>
+        </div>
+    </div>
+    <!--  -->
+    <div id="chef">
+        <div id="chef_bottomline"></div>
+        <div id="chef_left">
+            <div id="character_photo"></div>
+            <div id="card_one"></div>
+            <div></div>
+            <div></div>
+            <div id="chef_name">Gordon.Ramsay</div>
+            <div ></div>
+        </div>
+        <div id="chef_right">
+            <div id="star_one"></div>
+            <div id="star_two"></div>
+            <div id="star_three"></div>
+            <div id="starmessage_one">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, numquam. Corrupti ullam dolore animi laboriosam nostrum totam </div>
+            <div id="starmessage_two">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid reiciendis inventore fugit omnis quisquam deleniti ut ducimus </div>
+            <div id="starmessage_three">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit iusto recusandae iure necessitatibus laborum eligendi sed,</div>
+        </div>
+     </div>
+     <!--  -->
+     <div id="new_background">
+        <div id="new_block">
+            <div id="new_left">
+                <p id="new_left_font">推薦餐點</p>
+                <div id="font_bottom_line"></div>
+                <div id="new_left_photo"></div>
+                <div id="photo_line"></div>
+            </div>
+            <div id="new_right">
+                <p id="new_right_font">最新消息</p>
+                <div class="head_gold_frame" id="head_gold_frame_one"></div>
+                <div class="head_gold_frame" id="head_gold_frame_two"></div>
+                <div class="head_gold_frame" id="head_gold_frame_three"></div>
+                <div class="head_gold_frame" id="head_gold_frame_four"></div>
+                <div class="head_gold_frame" id="head_gold_frame_five"></div>
+                <div class="message_frame" id="message_frame_one">情人節放閃活動開跑囉!拍照放閃,上傳臉書打卡消費一律五八折。</div>
+                <div class="message_frame" id="message_frame_two">情人節放閃活動開跑囉!拍照放閃,上傳臉書打卡消費一律五八折。</div>
+                <div class="message_frame" id="message_frame_three">情人節放閃活動開跑囉!拍照放閃,上傳臉書打卡消費一律五八折。</div>
+                <div class="message_frame" id="message_frame_four">情人節放閃活動開跑囉!拍親放閃,上傳臉書打卡消費一律五八折。</div>
+                <div class="message_frame" id="message_frame_five">情人節放閃活動開跑囉!拍照放閃,上傳臉書打卡消費一律五八折。</div>
+                <div class="footer_gold_frame" id="footer_gold_frame_one">more...</div>
+                <div class="footer_gold_frame" id="footer_gold_frame_two">more...</div>
+                <div class="footer_gold_frame" id="footer_gold_frame_three">more...</div>
+                <div class="footer_gold_frame" id="footer_gold_frame_four">more...</div>
+                <div class="footer_gold_frame" id="footer_gold_frame_five">more...</div>
+            </div>
+        </div>
+     </div>
+     <!-- -->
+     <div id="restaurant">
+         <div class="restaurant_photo" id="exterior_photo" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+                <div class="exterior_front">
+                    <!-- 前面内容 -->
+                </div>
+                <div class="exterior_back">
+                    <!-- 背面内容 -->
+                </div>
+            </div>
+         </div>
+         <div class="restaurant_photo" id="wc_photo">
+            <div class="flipper">
+                <div class="wc_front">
+                    <!-- 前面内容 -->
+                </div>
+                <div class="wc_back">
+                    <!-- 背面内容 -->
+                </div>
+            </div>
+         </div>
+         <div class="restaurant_photo" id="kitchen_photo">
+            <div class="flipper">
+                <div class="kitchen_front">
+                    <!-- 前面内容 -->
+                </div>
+                <div class="kitchen_back">
+                    <!-- 背面内容 -->
+                </div>
+            </div>
+         </div>
+         <div class="restaurant_photo" id="restaurant_photo">
+            <div class="flipper">
+                <div class="restaurant_front">
+                    <!-- 前面内容 -->
+                </div>
+                <div class="restaurant_back">
+                    <!-- 背面内容 -->
+                </div>
+            </div>
+         </div>
+     </div>
+     <!-- -->
+     <div id="footer">
+         <div id="footer_left">
+            <div id="footer_left_font">連絡我們</div>
+            <div class="left_footer_icon_item" id="icon_receiver"></div>
+            <div class="left_footer_icon_item" id="icon_phone"></div>
+            <div class="left_footer_icon_item" id="icon_mail"></div>
+            <div class="left_footer_icon_item" id="icon_addres"></div>
+            <div class="left_icon_message" id="left_message_one">(04)-3345678 </div>
+            <div class="left_icon_message" id="left_message_two">0933-456788</div>
+            <div class="left_icon_message" id="left_message_three">advanced_beef@gmail.com</div>
+            <div class="left_icon_message" id="left_message_four">40452台中市北區崇德路一段579號</div>
+            <!-- <div id="google_map"></div> -->
+         </div>
+         <div id="footer_right">
+             <div id="center_line"></div>
+             <div id="right_icon"></div>
+             <div id="right_message">40452台中市北區崇德路一段579號</div>
+             <div id="google_map"></div>
+         </div>
+         <div id="footer_bottom">
+             <div id="top_line"></div>
+             <div id="copyright">©2017 ADVANCED BEEF Incorporated.All rights reserved.</div>
+         </div>
+     </div>
+
+    
+    <script>
+        // //toggle nav mneu
+        function toggle_class(){
+            var nav_menu = document.querySelector('#down');
+            nav_menu.classList.toggle('display');
+        }
+    
+        // scroll event
+        // load slide navbar and tourColumn
+        
+        $(window).load(function(){
+        // $(document).read(function(){    
+            var navbg = document.getElementById("navbar");
+                navbg.style.transform = "translate(0%, 0%)";
+            
+        });
+        //   navbar backgroundcolor and font color scroll toggle
+        $(window).scroll(function(){
+            var navbg = document.getElementById("navbar");
+            var fontcolor = document.getElementsByClassName("navbar_button_font");
+            var scrollTop = $(window).scrollTop();
+            console.log(scrollTop);
+            if(scrollTop > 50){
+                navbg.style.backgroundColor = "rgba(151,53,66,0.5)";
+                for(i=0;i<fontcolor.length;i++)
+                    {
+                        fontcolor[i].style.color = "#B87D40"; 
+                    }
+            }else{
+                navbg.style.backgroundColor = "#973542";
+                for(i=0;i<fontcolor.length;i++)
+                    {
+                        fontcolor[i].style.color = "#f4e1e4"; 
+                    }
+            }
+            // about block slide
+            var about_font_block = document.getElementById("font_block");
+            var about_photo = document.getElementById("about_right_img");
+            if(scrollTop > 75){
+                about_font_block.style.transform = "translate(0%, 0%)";
+                about_font_block.style.opacity = "1";
+                about_photo.style.transform =  "translate(0%, 0%)";
+                about_photo.style.opacity = "1";
+            }else{
+                about_font_block.style.transform = "translate(0%, 100%)";
+                about_font_block.style.opacity = "0";
+                about_photo.style.transform = "translate(170%,0%)";
+                about_photo.style.opacity = "0";
+            }
+            // menu fadein
+            var menu_big_font = document.getElementById("menu_big_font");
+            var please_flie_font = document.getElementById("please_flie_font");
+            if(scrollTop > 900){
+                menu_big_font.style.opacity = "1";
+                please_flie_font.style.opacity = "1";
+            }else{
+                menu_big_font.style.opacity = "0";
+                please_flie_font.style.opacity = "0";
+            }
+            
+        });
+
+        //Carousel bottom toggle  
+        function togglearr(n){
+            var slides = document.getElementsByClassName("slides");
+            var blurry_slides = document.getElementsByClassName("blurry_slides");
+            var bottom_nav = document.getElementsByClassName("bottom_nav");
+            for(i=0;i<slides.length;i++)
+                {
+                    bottom_nav[i].style.backgroundColor = "#898989"; 
+                    slides[i].style.display = "none";
+                    blurry_slides[i].style.display = "none";
+                }
+                bottom_nav[n].style.backgroundColor = "#ffffff";
+                slides[n].style.display = "block";
+                blurry_slides[n].style.display = "block";
+        }
+
+
+        // Carousel toggle and autoslides
+        var index = 1;
+        var indexs = 1;
+        var inde = 1;
+        function plusIndex(n){
+            index = index + n;
+            indexs = indexs + n;
+            inde = inde + n;
+            toggleBlurrySlides(index);
+            toggleSlides(indexs);
+            tourColumn(inde);
+        }
+
+        toggleBlurrySlides(1);
+        
+        function toggleBlurrySlides(n){
+            var i;
+            var blurry_slides = document.getElementsByClassName("blurry_slides");
+            if(n > blurry_slides.length){ index = 1}; 
+            if(n < 1){ index = blurry_slides.length}; 
+            for(i=0;i<blurry_slides.length;i++)   
+                {
+                    blurry_slides[i].style.display = "none"; 
+                }
+            blurry_slides[index-1].style.display = "block";
+        }
+
+        autoBlurry();
+        function autoBlurry(){
+            var i;
+            var x = document.getElementsByClassName("blurry_slides");
+                for(i=0;i<x.length;i++)   
+                    {
+                        x[i].style.display = "none"; 
+                    }
+                if(index > x.length){ index = 1}
+                x[index-1].style.display = "block";
+                index++;
+            setTimeout(autoBlurry,2000);    
+        }   
+
+        toggleSlides(1);
+        
+        function toggleSlides(n){
+            var i;
+            var slides = document.getElementsByClassName("slides");
+            if(n > slides.length){ indexs = 1}; 
+            if(n < 1){ indexs = slides.length}; 
+            for(i=0;i<slides.length;i++)   
+                {
+                    slides[i].style.display = "none"; 
+                }
+            slides[indexs-1].style.display = "block";
+        }
+
+        autoslides();
+        function autoslides(){
+            var i;
+            var slides = document.getElementsByClassName("slides");
+                for(i=0;i<slides.length;i++)   
+                    {
+                        slides[i].style.display = "none"; 
+                    }
+                if(indexs > slides.length){ indexs = 1}
+                slides[indexs-1].style.display = "block";
+                indexs++;
+            setTimeout(autoslides,2000); 
+        }
+
+        tourColumn(1);    
+        function tourColumn(n){
+            var i;
+            var bottom_nav = document.getElementsByClassName("bottom_nav");
+            if(n > bottom_nav.length){ inde = 1}; 
+            if(n < 1){ inde = bottom_nav.length}; 
+            for(i=0;i<bottom_nav.length;i++)   
+                {
+                    bottom_nav[i].style.backgroundColor = "#898989"; 
+                }
+            bottom_nav[inde-1].style.backgroundColor = "#ffffff";
+        }
+
+        autoColumn();
+        function autoColumn(){
+            var i;
+            var bottom_nav = document.getElementsByClassName("bottom_nav");
+                for(i=0;i<bottom_nav.length;i++)   
+                    {
+                        bottom_nav[i].style.backgroundColor = "#898989"; 
+                    }
+                if(inde > bottom_nav.length){ inde = 1}
+            bottom_nav[inde-1].style.backgroundColor = "#ffffff";
+            inde++;
+            setTimeout(autoColumn,2000);       
+        }   
+
+        //Menu Flip Page
+        var currentPage = 0;
+
+        $('.book')
+        .on('click', '.active', nextPage)
+        .on('click', '.flipped', prevPage);
+
+        $('.book').hammer().on("swipeleft", nextPage);
+        $('.book').hammer().on("swiperight", prevPage);
+
+        function prevPage() {
+        
+        $('.flipped')
+            .last()
+            .removeClass('flipped')
+            .addClass('active')
+            .siblings('.page')
+            .removeClass('active');
+        }
+        function nextPage() {
+        
+        $('.active')
+            .removeClass('active')
+            .addClass('flipped')
+            .next('.page')
+            .addClass('active')
+            .siblings();
+        }
+
+
+        function initMap() {
+        var uluru = {lat: 24.1668434, lng: 120.6846603};
+        var map = new google.maps.Map(document.getElementById('google_map'), {
+            zoom: 17,
+            center: uluru
+        });
+        var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+        });
+      }
+        
+
+       
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdToNk95DviEBXfp_exF5H1-T5gpCR924&callback=initMap"
+    async defer></script>
+</body>
+</html>
