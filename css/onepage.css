@@ -27,7 +27,7 @@ body{
 }
  #logo{
     position: relative;
-    top: 16px;
+    top: 10px;
     left: 26px;
 } 
 #logo_small{
@@ -37,7 +37,7 @@ body{
     position: relative;
     width: 1000px;
     margin: auto;
-    left: 60px;
+    left: 80px;
     bottom: 18px;
 }
 #navbar_button a{
@@ -96,8 +96,10 @@ body{
 }
 #bottom_nav_block{
     position: absolute;
-    bottom: 0;
-    margin: 0 0 0 45.2%;
+    top: 100%;
+    left: 50%; 
+    padding: 0;
+    transform: translate(-50%,-50%);
 }
 .bottom_nav{
     height: 20px;
@@ -184,7 +186,7 @@ body{
     left: 20%;
     opacity: 0;
     transition: all 1s ease-out;
-    transform: translate(170%,0);
+    transform: translate(0,110%);
 }
 #about_right_img:hover{
     -webkit-filter:brightness(1.1);
@@ -222,6 +224,7 @@ body{
     opacity: 0;
     transition: all 1.5s ease-out;
 }
+
 h1 {
     text-align: center;
 }
@@ -342,7 +345,8 @@ h1 {
     position: relative;
     height: 40vh;
     width: 100%;
-    position: relative;
+    position: 
+    elative;
     box-sizing: border-box;
 }
 #chef_bottomline{
@@ -427,7 +431,9 @@ h1 {
     float: left;  
     z-index: -1; 
 }
-
+.swiper-container{
+    display: none;
+}
 /* new */
 #new_background{
     position: relative;
@@ -1128,7 +1134,7 @@ h1 {
     }
     #logo_small{
         position: relative;
-        top: 10%;
+        top: 5%;
         left: 26px;
         display: block;
     }
@@ -1176,7 +1182,6 @@ h1 {
         opacity: 0;
         z-index: 1;
     }
-    
     #down.display{
         height: calc(100vh - 60px);
         opacity: 0.6;
@@ -1196,6 +1201,20 @@ h1 {
     .list_content a:hover{    
         color: #f19447;
     }
+    #bottom_nav_block{
+        top: 90%; 
+    }
+    #carousel>.btn{
+        width: 50px;
+        height: 50px;
+    }
+    #btn_one{
+        left: 0px;
+    }
+    #btn_two{
+        right: 0px;
+    }
+    
 
     /* Carousel block */
     #carousel{
@@ -1208,10 +1227,10 @@ h1 {
         margin: 0 auto;
     }
     #carousel>.btn{
-        display: none;
+        /* display: none; */
     }
     #bottom_nav_block{
-        display: none;
+        /* display: none; */
     }
 
     /* Abuto_us block */
@@ -1237,7 +1256,7 @@ h1 {
     }  
     #font_block>#font_six{
         top: 30%;
-        width: 7%;
+        width: 9.4%;
     }
     /* menu block */
     #menu_big_font{
@@ -1249,6 +1268,7 @@ h1 {
 
     /* chef block */
     #chef{
+        position: relative;
         height: 600px;
     }
     #chef_bottomline{
@@ -1271,10 +1291,52 @@ h1 {
         height: 200px;
         top: 25%;
     }
+    html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        position: absolute;
+        width: 100%;
+        height: 200px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-20%);
+        display: block;
+   
+    }
+    .swiper-slide {
+        /* background-image: url('../img/card-1.png');
+        background-size: 100% 100%; */
+        text-align: center;
+        font-size: 18px;
+        /* background: #fff; */
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }   
     #chef_right{
         display: none;
     }
-
     /* new */
     #new_background{
         position: relative;
@@ -1439,6 +1501,24 @@ h1 {
 }
 
 @media screen and (max-width: 414px){
+    /* Carousel block  */
+    #carousel{
+        position: relative;
+        width: 100%;
+        height: calc(100vh - 190px);
+        background-color: #000000;
+        top: 120px;
+        bottom: 70px;
+        margin: 0 auto;
+    }
+    #carousel>.btn{
+       height: 40px;
+       width: 40px;
+    }
+    .bottom_nav{
+        height: 16px;
+        width: 16px;
+    }
     /* Abuto_us block */
     #about_us{
         height: 36vh;
@@ -1451,6 +1531,10 @@ h1 {
         top: 28%;
         width: 70px;
         height: 100px;
+    }
+    #font_block>#font_six{
+        top: 30%;
+        width: 17%;
     }
     /* menu block */
     #menu {
@@ -1579,3 +1663,7 @@ h1 {
         max-width: 100%;
     }
 }
+
+
+
+
